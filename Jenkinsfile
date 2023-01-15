@@ -3,7 +3,7 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "http://localhost:8081/"
+        NEXUS_URL = "localhost:8081/"
         NEXUS_REPOSITORY = "simple-astronomy-lib"
         NEXUS_CREDENTIAL_ID = "nexus-user-credential"
     }
