@@ -110,7 +110,7 @@ Pour notre TP ce sera ceux-ci:
     NEXUS_REPOSITORY = "simple-astronomy-lib"
     NEXUS_CREDENTIAL_ID = "nexus-user-credential"
 
-On a du enlevé dans la pipeline le "post" qu'on a vu en cours car il ne fonctionnait pas  et mettait notre exécution en échec :
+On a du enlever dans la pipeline le "post" qu'on a vu en cours car il ne fonctionnait pas et mettait notre exécution en échec :
 ```
 post {
         always {
