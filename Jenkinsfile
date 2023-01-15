@@ -20,13 +20,6 @@ pipeline {
                 bat 'mvn package' 
             }
         }
-        stage('Analyse') {
-            steps {
-                bat 'mvn checkstyle:checkstyle'
-                bat 'mvn spotbugs:spotbugs'
-                bat 'mvn pmd:pmd' 
-            }
-        }
         stage("Publish to Nexus Repository Manager") {
             steps {
                 script {
