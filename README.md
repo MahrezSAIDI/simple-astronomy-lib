@@ -126,7 +126,7 @@ post {
 }
 ```    
 
- <font color="#ff726f"> Il faut cepandant autoriser les script pour que notre étape fonctionnes, pour cela aller dans "Tableau de bord > Administrer Jenkins > In-process Script Approval"
+ [color=#26B260] Il faut cepandant autoriser les script pour que notre étape fonctionnes, pour cela aller dans "Tableau de bord > Administrer Jenkins > In-process Script Approval"
 Rajouter la ligne suivante dans "Signatures already approved:" 
     method org.apache.maven.model.Model getPackaging.
-</font>
+[/color]
